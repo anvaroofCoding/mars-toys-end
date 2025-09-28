@@ -95,9 +95,9 @@ const NewProducts = () => {
 						<div className='px-4 sm:px-6 py-4 sm:py-5 flex-1 flex flex-col justify-between'>
 							<div>
 								{/* Kategoriya */}
-								{item.category?.name && (
+								{item.category && (
 									<p className='flex items-center gap-1 text-xs sm:text-sm text-gray-500 mb-1'>
-										<Tag className='w-4 h-4' /> {item.category.name}
+										<Tag className='w-4 h-4' /> {item.category}
 									</p>
 								)}
 
@@ -135,7 +135,7 @@ const NewProducts = () => {
 				<Button
 					onClick={() => navigate(PATH.allproducts)}
 					className='w-[180px] sm:w-[200px] rounded-xl bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white flex items-center gap-2'
-					size='lg'
+					size='large'
 				>
 					{translations.newProducts.allProductsButtonTxt}{' '}
 					<ArrowRight className='w-5 h-5' />
