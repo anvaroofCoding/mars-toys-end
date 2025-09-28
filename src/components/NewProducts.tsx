@@ -76,7 +76,7 @@ const NewProducts = () => {
 			</motion.h2>
 
 			<ul className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6'>
-				{products.map(item => (
+				{products.map((item: ProductsType) => (
 					<motion.li
 						key={item.id}
 						initial={{ opacity: 0, y: 20 }}
@@ -135,7 +135,7 @@ const NewProducts = () => {
 				<Button
 					onClick={() => navigate(PATH.allproducts)}
 					className='w-[180px] sm:w-[200px] rounded-xl bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white flex items-center gap-2'
-					size='large'
+					size='large' // ✅ "lg" emas "large"
 				>
 					{translations.newProducts.allProductsButtonTxt}{' '}
 					<ArrowRight className='w-5 h-5' />

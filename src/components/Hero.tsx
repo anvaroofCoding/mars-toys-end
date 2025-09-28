@@ -22,20 +22,17 @@ export default function Hero() {
 	]
 
 	return (
-		<div
-			className="min-h-screen 
-    // bg-[url('/toyschi.jpg')] bg-cover bg-center  
-    relative overflow-hidden"
-		>
+		<div className="min-h-screen relative bg-[url('/toyschi.jpg')] bg-cover bg-center overflow-hidden">
 			<div className='bg-black/50 w-full h-full absolute'></div>
-			{/* Apple-like animated background elements */}
+
+			{/* Apple-like animated background */}
 			<div className='absolute inset-0'>
 				<div className='absolute top-20 left-10 w-64 h-64 bg-gradient-to-r from-blue-400/20 to-purple-600/20 rounded-full blur-3xl animate-pulse'></div>
 				<div className='absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-r from-pink-400/20 to-red-600/20 rounded-full blur-3xl animate-pulse delay-1000'></div>
 				<div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-cyan-400/10 to-blue-600/10 rounded-full blur-3xl animate-pulse delay-2000'></div>
 			</div>
 
-			{/* Apple-like grid lines */}
+			{/* Grid lines */}
 			<div className='absolute inset-0 opacity-10'>
 				<div className='grid grid-cols-12 h-full'>
 					{Array.from({ length: 12 }).map((_, i) => (
@@ -51,7 +48,7 @@ export default function Hero() {
 
 			{/* Main content */}
 			<div className='relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center'>
-				{/* Animated MARS TOYS title */}
+				{/* Animated Title */}
 				<div className='mb-8'>
 					<h1 className='text-5xl md:text-8xl font-bold mb-4 tracking-wider'>
 						{marsToysLetters.map((item, index) => (
@@ -74,7 +71,6 @@ export default function Hero() {
 						))}
 					</h1>
 
-					{/* Animated subtitle */}
 					<div
 						className={`transform transition-all duration-1000 delay-1000 ${
 							isVisible
@@ -89,24 +85,23 @@ export default function Hero() {
 					</div>
 				</div>
 
-				{/* Animated description */}
+				{/* Description */}
 				<div
-					className={` max-w-2xl transform transition-all duration-1000 delay-2500 ${
+					className={`max-w-2xl transform transition-all duration-1000 delay-2500 ${
 						isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
 					}`}
 				>
 					<p className='text-gray-300 text-lg leading-relaxed'>
-						Eng so‘nggi o‘yinchoqlar – ulgurji narxlarda Bugun buyurtma bering –
-						ertaga do‘koningizda MarsToys – savdogarlar uchun qulay platforma
+						Eng so‘nggi o‘yinchoqlar – ulgurji narxlarda. Bugun buyurtma bering
+						– ertaga do‘koningizda! MarsToys – savdogarlar uchun qulay
+						platforma.
 					</p>
 				</div>
 
-				{/* CTA buttons with Apple-like styling */}
+				{/* CTA */}
 				<div
 					className={`flex flex-col sm:flex-row gap-4 transform transition-all duration-1000 delay-2000 mt-10 ${
-						isVisible
-							? 'translate-y-0 opacity-100'
-							: 'translate-y-20 opacity-0 '
+						isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
 					}`}
 				>
 					<Link to={'/allproducts'}>
@@ -120,35 +115,31 @@ export default function Hero() {
 				<div className='absolute bottom-1/4 left-1/4 w-1 h-1 bg-pink-400 rounded-full animate-ping delay-2000'></div>
 			</div>
 
-			{/* Custom animations */}
-			<style jsx>
-				{
-					`
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-10px);
-    }
-    60% {
-      transform: translateY(-5px);
-    }
-  }
-` as unknown as React.ReactNode
+			{/* Custom animations (global CSS) */}
+			<style>{`
+				@keyframes fadeInUp {
+					from {
+						opacity: 0;
+						transform: translateY(30px);
+					}
+					to {
+						opacity: 1;
+						transform: translateY(0);
+					}
 				}
-			</style>
+
+				@keyframes bounce {
+					0%, 20%, 50%, 80%, 100% {
+						transform: translateY(0);
+					}
+					40% {
+						transform: translateY(-10px);
+					}
+					60% {
+						transform: translateY(-5px);
+					}
+				}
+			`}</style>
 		</div>
 	)
 }
