@@ -1,0 +1,116 @@
+{
+  "header": {
+    "home": "Home",
+    "allProducts": "All Products",
+    "basket": "Basket",
+    "orders": "Orders",
+    "search": "Search Product",
+    "catalog": "Catalog",
+    "myOrders": "My Orders",
+    "login": "Login"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "address": "Address: Orikzor Bazaar, Carpet Bazaar / Samarbonu 39A/1",
+    "phoneNumber": "Phone Number",
+    "copyright": "2025 MARSTOYS - CREATIVE AGENCY",
+    "socialMedia": "Social Media"
+  },
+  "Hero": {
+    "subtitle": "The latest toys – at wholesale prices\nOrder today – get it tomorrow in your store\nMarsToys – a convenient platform for traders",
+    "buttonText": "Shop Now"
+  },
+  "allProducts": {
+    "title": "All Products",
+    "productsFound": "products found",
+    "all": "Toys for all",
+    "men": "Boys' Toys",
+    "girl": "Girls' Toys",
+    "view": "View",
+    "loading": "Loading Data",
+    "buyNow": "Buy Now",
+    "motiveSentence": "Enrich your store with new toys \nEach product is a joy for children, income for you \nIn any quantity, at wholesale prices"
+  },
+  "basket": {
+    "company": "Company",
+    "rating": "Rating",
+    "timesSold": "times sold",
+    "commentTitle": "Product Information",
+    "comment": "Reviews",
+    "sum": "Total",
+    "addToCart": "Add to Cart",
+    "noProductSelected": "No toy selected yet",
+    "buyToy": "Buy Toy",
+    "backtoButton": "Go Back",
+    "backtoSale": "Return to Sale",
+    "saleTitle": "Your Basket",
+    "count": "Quantity",
+    "total": "Total",
+    "deleteButton": "Delete",
+    "toOrder": "Place Order",
+    "totalProduct": "pcs.",
+    "writeComment": "Write a Comment",
+    "commentModalTitle": "Write a Comment About This Toy",
+    "commentModalButton": "Send",
+    "commentModalCancel": "Cancel",
+    "commentModalInputPlaceholder": "Write a comment",
+    "commentNotFound": "Comments not found",
+    "emptyBasket": "Your Basket is Empty",
+    "like": "Like",
+    "selectedColor": "Selected Color",
+    "color":"Color",
+    "deliveryDays": "Delivery in 1 day",
+    "deliveryInfo": "Delivery to Mars Toys stores or via courier"
+  },
+  "order": {
+    "allOrder": "All Orders",
+    "active": "Active",
+    "BuyerName": "Order Owner",
+    "ProductName": "Order Name",
+    "status": "Status",
+    "deliveryDate": "Delivery Date",
+    "submittedAddress": "Submitted Address",
+    "totalPrice": "Order Price",
+    "money": "Total",
+    "product": "Product",
+    "price": "Price",
+    "quantity": "Quantity",
+    "name": "Name",
+    "order": "Order",
+    "count": "pcs.",
+    "productCount": "Quantity"
+  },
+  "saleInfo": {
+    "formName": "First Name",
+    "formSurname": "Last Name",
+    "phoneNumber": "Phone Number",
+    "address": "Delivery Address",
+    "ordery": "Your Order",
+    "products": "Products",
+    "count": "pieces",
+    "total": "Total",
+    "processingOrders": "Processing Order",
+    "money": "Total",
+    "productCount": "Quantity",
+    "verifySms": "A verification code has been sent to you",
+    "thatNumber": "to the number",
+    "addVerifyCode": "Enter the verification code within seconds",
+    "verifyCodeAdd": "Enter the verification code",
+    "verifyCodeButtonText": "Send",
+    "payment": "Place Order",
+    "verifyCode": "Enter the verification code",
+    "paymentMethod": "Payment Methods",
+    "subtitle": "Fast delivery – in 24 hours\nWe securely package and send your order\nReliable partnership: additional conveniences for regular customers"
+  },
+  "newProducts": {
+    "title": "New Products",
+    "buyText": "Buy Now",
+    "allProductsButtonTxt": "View All"
+  },
+  "catalog": {
+    "title": "Toys"
+  },
+  "common": {
+    "loading": "Loading Data"
+  }
+}

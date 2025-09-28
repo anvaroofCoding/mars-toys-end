@@ -1,0 +1,118 @@
+{
+  "header": {
+    "home": "Bosh sahifa",
+    "allProducts": "Mahsulotlar",
+    "basket": "Savatcha",
+    "orders": "Buyurtmalar",
+    "search": "Mahsulotni izlash",
+    "catalog": "Katalog",
+    "myOrders": "Mening buyurtmalarim",
+    "login": "Kirish"
+  },
+  "footer": {
+    "aboutUs": "Biz haqimizda",
+    "address": "Manzil: O'rikzor bozori, Gilam bozor / Samarbonu 39A/1",
+    "phoneNumber": "Telefon raqami",
+    "copyright": "2025 MARSTOYS - IJOD AGENCY",
+    "socialMedia": "Ijtimoiy tarmoq"
+  },
+  "Hero": {
+   "subtitle": "Eng so‘nggi o‘yinchoqlar – ulgurji narxlarda\nBugun buyurtma bering – ertaga do‘koningizda\nMarsToys – savdogarlar uchun qulay platforma",
+  "buttonText": "Xarid qilish"
+  },
+  "allProducts": {
+    "title": "Mahsulotlar",
+    "productsFound": "ta mahsulot topildi",
+    "all": "Barcha uchun o'yinchoqlar",
+    "men": "O'g'il bolalar o'yinchoqlari",
+    "girl": "Qiz bolalar o'yinchoqlari",
+    "view": "Ko'rish",
+    "loading": "Ma'lumot yuklanmoqda",
+    "buyNow": "Sotib olish",
+    "motiveSentence": "Do‘koningizni yangi o‘yinchoqlar bilan boyiting \nHar bir mahsulot – bolalar uchun quvonch, siz uchun daromad \nO‘zingiz xohlagan miqdorda, ulgurji narxda"
+  
+  },
+  "basket": {
+    "company": "Kompaniya",
+    "rating": "Baholash",
+    "timesSold": "marta sotilgan",
+    "commentTitle": "Mahsulot haqidagi fikrlar",
+    "comment": "Sharhlar",
+    "sum": "so'm",
+    "addToCart": "Savatchaga qo'shish",
+    "noProductSelected": "Hozircha mahsulot tanlanmagan",
+    "buyToy": "O'yinchoq sotib olish",
+    "backtoButton": "Orqaga qaytish",
+    "backtoSale": "Sotuvga qaytish",
+    "saleTitle": "Sizning savatchingiz",
+    "count": "Miqdor",
+    "total": "Jami",
+    "deleteButton": "O'chirish",
+    "toOrder": "Buyurtma berish",
+    "totalProduct": "ta mahsulot",
+    "writeComment": "Sharh yozish",
+    "commentModalTitle": "O'yinchoq haqida fikr yozing",
+    "commentModalButton": "Yuborish",
+    "commentModalCancel": "Bekor qilish",
+    "commentModalInputPlaceholder": "Sharh yozing",
+    "commentNotFound": "Sharhlar mavjud emas",
+    "emptyBasket": "Savatcha bo'sh",
+    "like": "Yoqtirish",
+    "selectedColor": "Tanlangan rang",
+    "color":"Rangi",
+    "deliveryDays": "1 kun ichida yetkazib berish",
+    "deliveryInfo": "Mars Toys do'konlarida yoki kuryer orqali"
+  },
+  "order": {
+    "allOrder": "Barcha buyurtmalar",
+    "active": "Faol",
+    "BuyerName": "Buyurtma egasi: ",
+    "ProductName": "Mahsulot nomi: ",
+    "status": "Holat: ",
+    "money": "so'm",
+    "deliveryDate": "Yetkazib berilgan sana: ",
+    "submittedAddress": "Topshirilgan manzil: ",
+    "totalPrice": "Buyurtma narxi: ",
+    "productCount": "xil turdagi mahsulotlar",
+    "product": "Mahsulot",
+    "price": "Narx",
+    "quantity": "Miqdor",
+    "name": "Nomi",
+    "order": "Buyurtma",
+    "count": "Dona"
+
+  },
+  "saleInfo": {
+    "formName": "Ism",
+    "formSurname": "Familiya",
+    "phoneNumber": "Telefon raqami",
+    "address": "Buyurtma manzili",
+    "ordery": "Buyurtmangiz",
+    "products": "Mahsulotlar",
+    "count": "Dona",
+    "total": "Jami",
+    "processingOrders": "Buyurtmani tasdiqlash",
+    "money": "so'm",
+    "productCount": "Miqdor",
+    "verifySms": "Tasdiqlash kodi",
+    "thatNumber": "raqamiga yuborildi",
+    "addVerifyCode": "Tasdiqlash kodini kiriting",
+    "verifyCodeAdd": "Kodni kiriting",
+    "verifyCodeButtonText": "Yuborish",
+    "payment": "Buyurtma berish",
+    "verifyCode": "Tasdiqlash kodini kiriting",
+    "paymentMethod": "To'lov usullari",
+    "subtitle": "Tezkor yetkazib berish – 24 soat ichida qo‘lingizda\nBuyurtmangizni xavfsiz qadoqlab yuboramiz\nIshonchli hamkorlik: qo‘shimcha qulayliklar uchun muntazam mijozlarga"
+  },
+  "newProducts": {
+    "title": "Yangi mahsulotlar",
+    "buyText": "Sotib olish",
+    "allProductsButtonTxt": "Barchasini ko'rish"
+  },
+  "catalog": {
+    "title": "O'yinchoqlar"
+  },
+  "common": {
+    "loading": "Ma'lumot yuklanmoqda"
+  }
+}
