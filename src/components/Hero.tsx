@@ -121,34 +121,34 @@ export default function Hero() {
 			</div>
 
 			{/* Custom animations */}
-			<style jsx>{`
-				@keyframes fadeInUp {
-					from {
-						opacity: 0;
-						transform: translateY(30px);
-					}
-					to {
-						opacity: 1;
-						transform: translateY(0);
-					}
-				}
+			<style jsx>
+				{
+					`
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
-				@keyframes bounce {
-					0%,
-					20%,
-					50%,
-					80%,
-					100% {
-						transform: translateY(0);
-					}
-					40% {
-						transform: translateY(-10px);
-					}
-					60% {
-						transform: translateY(-5px);
-					}
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+` as unknown as React.ReactNode
 				}
-			`}</style>
+			</style>
 		</div>
 	)
 }

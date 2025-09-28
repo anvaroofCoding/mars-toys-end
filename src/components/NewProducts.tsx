@@ -10,11 +10,11 @@ import { PATH } from '../hook/usePath'
 export interface ProductsType {
 	id: number
 	name: string
-	price: string | number
-	discounted_price: string | number
+	price: string
+	discounted_price: string
 	quantity: number
 	discount: number
-	category: string | number
+	category: string
 	average_rating: number
 	images: ImagesType[]
 	sold_count: number
